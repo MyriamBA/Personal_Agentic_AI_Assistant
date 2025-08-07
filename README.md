@@ -8,7 +8,7 @@ This project implements a personal assistant powered by an agentic AI. It can he
 The main tools used are: 
 1. [PlayWright Browser ToolKit](https://python.langchain.com/docs/integrations/tools/playwright/)
 2. [Google Serper](https://python.langchain.com/docs/integrations/tools/google_serper/)
-3. SendGrid Email API [https://sendgrid.com/en-us]
+3. (SendGrid Email API)[https://sendgrid.com/en-us]
 
 ## Learning Resources
 1.  [Building Effective Agents](https://www.anthropic.com/engineering/building-effective-agents)
