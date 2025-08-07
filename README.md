@@ -5,10 +5,20 @@ This project implements a personal assistant powered by an agentic AI. It can he
 
 <img src="images/sidekick.png" alt="Description" width="500"/>
 
-The main tools used are: 
-1. [PlayWright Browser ToolKit](https://python.langchain.com/docs/integrations/tools/playwright/)
-2. [Google Serper](https://python.langchain.com/docs/integrations/tools/google_serper/)
-3. [SendGrid Email API](https://sendgrid.com/en-us)
+## Main Tools & Technologies
+
+This agentic AI system is built using the following core tools:
+
+- **LangGraph** – for building agentic workflows and reasoning chains.
+- **LangSmith** – for tracing and monitoring.
+- **OpenAI ChatGPT-4-o-mini** – as the main LLM for task completion and planning.
+- **Gradio** – a simple UI for interacting with the personal assistant.
+
+## Agent Tools
+The worker agent uses the following tools:
+1. [PlayWright Browser ToolKit](https://python.langchain.com/docs/integrations/tools/playwright/) : for computer and Browser use.
+2. [Google Serper](https://python.langchain.com/docs/integrations/tools/google_serper/) : for accessing Google Search.
+3. [SendGrid Email API](https://sendgrid.com/en-us) : for sending emails.
 
 ## Learning Resources
 1.  [Building Effective Agents](https://www.anthropic.com/engineering/building-effective-agents)
