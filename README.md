@@ -11,7 +11,7 @@ This agentic AI system is built using the following core tools:
 
 - **LangGraph**: for building agentic workflows.
 - **LangSmith**:  for tracing and monitoring.
-- **OpenAI ChatGPT-4-o-mini**: as the main LLM for task completion and planning.
+- **OpenAI API (GPT-4)**: as the main LLM for task completion and planning.
 - **Gradio**: a simple UI for interacting with the personal assistant.
 
 ## Agent Tools
