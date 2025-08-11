@@ -22,10 +22,14 @@ The worker agent uses the following tools:
    
 ## Installation & Running
 1. This project uses UV for dependency management and package handling, offering a seamless setup and execution experience. So you need first to install uv: 
-   ```bash
+ ```bash
    pip install uv
    ```
-2. Then you need to add the required keys into the .env file:
+2. To install all the project dependencies, run :
+```bash
+     uv sync 
+   ```
+3. Then you need to add the required keys into the .env file:
   - OPENAI_API_Key
   - SENDGRID_API_KEY
   - SERPER_API_KEY
