@@ -27,7 +27,7 @@ The worker agent uses the following tools:
    ```
 2. To install all the project dependencies, run :
 ```bash
-     uv sync 
+  uv sync 
    ```
 3. Then you need to add the required keys into the .env file:
   - OPENAI_API_Key
