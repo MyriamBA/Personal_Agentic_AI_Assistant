@@ -25,7 +25,7 @@ The worker agent uses the following tools:
  ```bash
    pip install uv
    ```
-2. To install all the project dependencies, run :
+2. After cloning the project, install all dependencies by running:
 ```bash
   uv sync 
    ```
